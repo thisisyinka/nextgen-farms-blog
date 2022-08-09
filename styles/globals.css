@@ -1,9 +1,12 @@
+/* @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900'); */
+@import url('https://fonts.googleapis.com/css?family=Urbanist:300,400,500,700,900');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: 'Rubik', sans-serif; */
+  font-family: 'Urbanist', sans-serif;
 }
 
 a {
@@ -13,4 +16,27 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@media (min-width: '48em') {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: '62em') {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: '75em') {
+  .container {
+    max-width: 1200px;
+  }
 }
