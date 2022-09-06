@@ -9,8 +9,8 @@ const Home = ({ articles, categories }) => {
   return (
     <>
       <Head>
-        <title>NextGen Farms Blog</title>
-        <meta name='description' content='NextGen Farms Blog' />
+        <title>Simple Blog</title>
+        <meta name='description' content='Simple Blog' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 

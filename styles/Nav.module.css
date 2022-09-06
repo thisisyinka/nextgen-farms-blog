@@ -27,6 +27,8 @@
   color: #fff;
   padding: 15px 20px;
   font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .Button:hover {
