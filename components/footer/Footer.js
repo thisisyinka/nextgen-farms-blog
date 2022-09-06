@@ -12,7 +12,7 @@ const Footer = () => {
           <Box p={3} fontSize={3} width='100%'>
             <Flex justifyContent='center' alignItems='center'>
               <Text fontWeight='bold'>
-                &copy; Copyright {currentYear}. NextGen Farms
+                &copy; Copyright {currentYear}. Simple Blog - by Layinka 👩🏾‍💻
               </Text>
             </Flex>
           </Box>
